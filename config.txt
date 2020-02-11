@@ -1,0 +1,15 @@
+gspread-secret-json-filename:
+  merge-ics-online-secret.json
+source:
+  Merge-ICS-Online-Agenda-List
+destination:
+  filename: calendrier_transition_belgique_francophone.ics
+  folder: generated_ics
+  options:
+      version: 2.0
+      prodid: -//Owner//Merged//EN
+      x-wr-calname: Merged Calendar
+      x-wr-caldesc: All my events
+      calscale: GREGORIAN
+      method: PUBLISH
+      x-published-ttl: PT15M
